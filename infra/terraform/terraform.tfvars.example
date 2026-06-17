@@ -1,0 +1,12 @@
+aws_region = "us-east-1"
+environment = "staging"
+vpc_id = "vpc-xxxxxxxx"
+private_subnet_ids = ["subnet-aaaaaaa", "subnet-bbbbbbb"]
+db_password = "replace-me"
+backend_image = "123456789012.dkr.ecr.us-east-1.amazonaws.com/sentellent-backend:latest"
+jwt_secret_arn = "arn:aws:secretsmanager:us-east-1:123456789012:secret:sentellent/jwt"
+groq_api_key_arn = "arn:aws:secretsmanager:us-east-1:123456789012:secret:sentellent/groq"
+google_oauth_client_id_arn = "arn:aws:secretsmanager:us-east-1:123456789012:secret:sentellent/google-client-id"
+google_oauth_client_secret_arn = "arn:aws:secretsmanager:us-east-1:123456789012:secret:sentellent/google-client-secret"
+github_repository_url = "https://github.com/your-org/sentellent"
+backend_api_url = "https://xxxxxxxx.execute-api.us-east-1.amazonaws.com"
